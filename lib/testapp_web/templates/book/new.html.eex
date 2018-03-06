@@ -1,0 +1,7 @@
+<h1> Add a Book </h1>
+
+<form action="<%= book_path(@conn, :create) %>" method="post">
+  <label for="book_title">Book Title</label>
+  <input type="text" name="book_title" />
+  <button type="submit">Submit</button>
+</form>
